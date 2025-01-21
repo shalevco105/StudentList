@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.studentList"
+        android:supportsRtl="true"
+        tools:targetApi="31" >
+        <activity
+            android:name=".activities.CreateStudentActivity"
+            android:label="Create Student"
+            android:exported="false"
+            android:parentActivityName=".activities.StudentsRecyclerViewActivity"/>
+        <activity
+            android:name=".activities.StudentsRecyclerViewActivity"
+            android:exported="true"
+            android:label="@string/students_list_screen_label"
+            android:theme="@style/Theme.studentList">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.StudentDetailsActivity"
+            android:exported="false"
+            android:label="@string/student_details_screen_label"
+            android:parentActivityName=".activities.StudentsRecyclerViewActivity"
+            android:theme="@style/Theme.studentList" />
+        <activity
+            android:name=".activities.EditStudentActivity"
+            android:exported="false"
+            android:label="Edit Student"
+            android:theme="@style/Theme.studentList" />
+    </application>
+
+</manifest>

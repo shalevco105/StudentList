@@ -1,0 +1,16 @@
+<resources>
+    <string name="students_list_screen_label">studentList</string>
+    <string name="create_student_screen_label">Create Student</string>
+    <string name="no_content_label">No Content</string>
+    <string name="name_label">Name: </string>
+    <string name="id_label">ID: </string>
+    <string name="phone_label">Phone: </string>
+    <string name="address_label">Address: </string>
+    <string name="checked_label">Checked</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="save_label">Save</string>
+    <string name="edit_label">EDIT</string>
+    <string name="student_image_description">image</string>
+    <string name="student_details_screen_label">Student Details</string>
+    <string name="delete_label">DELETE</string>
+</resources>
