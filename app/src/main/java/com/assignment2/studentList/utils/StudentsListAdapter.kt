@@ -4,8 +4,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.studentsapp.R
-import com.example.studentsapp.model.Student
+import com.assignment2.studentList.R
+import com.assignment2.studentList.activities.OnItemClickListener
+import com.assignment2.studentList.activities.Student
+import com.assignment2.studentList.activities.StudentsViewHolder
 
 class StudentsListAdapter(
     private val studentList: MutableList<Student>?

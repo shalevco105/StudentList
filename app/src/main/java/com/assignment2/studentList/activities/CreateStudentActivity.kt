@@ -1,13 +1,12 @@
-package com.example.studentsapp.activities
+package com.assignment2.studentList.activities
 
 import android.os.Bundle
 import android.view.View
 import android.widget.CheckBox
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.studentsapp.R
-import com.example.studentsapp.model.Model
-import com.example.studentsapp.model.Student
+import com.assignment2.studentList.R
+
 
 class CreateStudentActivity : AppCompatActivity() {
     private lateinit var inputName: EditText

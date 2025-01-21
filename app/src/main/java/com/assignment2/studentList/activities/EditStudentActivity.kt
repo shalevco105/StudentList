@@ -5,9 +5,8 @@ import android.view.View
 import android.widget.CheckBox
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.studentsapp.R
-import com.example.studentsapp.model.Model
-import com.example.studentsapp.model.Student
+import com.assignment2.studentList.R
+
 
 class EditStudentActivity : AppCompatActivity() {
     private var currentStudent: Student? = null

@@ -1,4 +1,4 @@
-package com.example.studentsapp.activities
+package com.assignment2.studentList.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,8 @@ import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.studentsapp.R
-import com.example.studentsapp.model.Model
-import com.example.studentsapp.model.Student
+import com.assignment2.studentList.R
+
 
 class StudentDetailsActivity : AppCompatActivity() {
 

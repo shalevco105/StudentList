@@ -1,4 +1,4 @@
-package com.example.studentsapp.model
+package com.assignment2.studentList.activities
 
 class Model private constructor() {
 

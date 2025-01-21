@@ -15,9 +15,9 @@
             android:name=".activities.CreateStudentActivity"
             android:label="Create Student"
             android:exported="false"
-            android:parentActivityName=".activities.StudentsRecyclerViewActivity"/>
+            android:parentActivityName=".activities.StudentListActivity"/>
         <activity
-            android:name=".activities.StudentsRecyclerViewActivity"
+            android:name=".activities.StudentListActivity"
             android:exported="true"
             android:label="@string/students_list_screen_label"
             android:theme="@style/Theme.studentList">
@@ -31,7 +31,7 @@
             android:name=".activities.StudentDetailsActivity"
             android:exported="false"
             android:label="@string/student_details_screen_label"
-            android:parentActivityName=".activities.StudentsRecyclerViewActivity"
+            android:parentActivityName=".activities.studentsListViewActivity"
             android:theme="@style/Theme.studentList" />
         <activity
             android:name=".activities.EditStudentActivity"

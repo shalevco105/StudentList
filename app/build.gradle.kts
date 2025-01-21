@@ -9,7 +9,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.studentList"
+        applicationId = "com.assignment2.studentList"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

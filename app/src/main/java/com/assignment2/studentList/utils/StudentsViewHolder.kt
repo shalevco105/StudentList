@@ -1,13 +1,11 @@
-package com.assignment2.studentList.utils
+package com.assignment2.studentList.activities
 
 import android.util.Log
 import android.view.View
 import android.widget.CheckBox
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.studentsapp.R
-import com.example.studentsapp.model.Model
-import com.example.studentsapp.model.Student
+import com.assignment2.studentList.R
 
 interface OnItemClickListener {
     fun onItemClick(position: Int)

@@ -1,4 +1,4 @@
-package com.example.studentsapp.ui.theme
+package com.assignment2.studentList.activities
 
 import androidx.compose.ui.graphics.Color
 
